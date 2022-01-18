@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   width: 100%;
+ }
+
+ nav {
+   background-color: #F8F8F8;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-bottom: solid 0.5px #e7e7e7;
+ }
+
+ .logo {
+   margin-right: -10px;
+   font-size: 20px;
+ }
+
+ .new-article {
+   margin-left: -10px;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: #777;
+ }
